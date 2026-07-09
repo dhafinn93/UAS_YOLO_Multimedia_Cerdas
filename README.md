@@ -21,7 +21,6 @@ Jika ingin menjalankan ulang proyek ini di Google Colab atau komputer lokal, And
 
 ### 4. Tampilan Hasil
 Berikut adalah bukti visual model AI berhasil mendeteksi jalan berlubang saat diuji coba:
-
-![Hasil Deteksi](tes2.jpg)
+<img width="736" height="416" alt="tes3" src="https://github.com/user-attachments/assets/1fd590b7-21d9-497d-8ad2-8fa773add19d" />
 
 <img width="516" height="387" alt="tes2" src="https://github.com/user-attachments/assets/fe964887-af54-4b7c-803c-ba5b857a8102" />
