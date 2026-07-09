@@ -13,6 +13,8 @@ Jika ingin menjalankan ulang proyek ini di Google Colab atau komputer lokal, And
 2. Buka terminal atau Google Colab, jalankan perintah instalasi berikut:
    `pip install ultralytics`
 3. Jalankan *notebook* untuk melakukan prediksi pada gambar baru.
+4. saya memakai dataset dari kaggle untuk lebih lengkapnya bisa klik link drive ini
+https://drive.google.com/drive/folders/15rKBdk4JLd7YPPmAlG0r37sN83NupUSj?usp=drive_link
 
 ### 3. Cara Kerja
 1. **Pengumpulan Data:** Menggunakan dataset gambar jalan berlubang (*pothole*) berformat YOLO.
