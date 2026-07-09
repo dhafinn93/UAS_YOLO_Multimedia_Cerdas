@@ -9,11 +9,23 @@ Proyek ini adalah implementasi *Computer Vision* menggunakan model YOLOv8 untuk 
 
 ### 2. Cara Menjalankan (Instalasi)
 Jika ingin menjalankan ulang proyek ini di Google Colab atau komputer lokal, Anda membutuhkan pustaka `ultralytics`.
-1. Unduh file `UAS_Multimedia_Cerdas.ipynb` dan file bobot `best.pt` dari repositori ini.
-2. Buka terminal atau Google Colab, jalankan perintah instalasi berikut:
-   `pip install ultralytics`
-3. Jalankan *notebook* untuk melakukan prediksi pada gambar baru.
-4. saya memakai dataset dari kaggle untuk lebih lengkapnya bisa klik link drive ini
+Langlah 1: Silahkan Download Repo ini kemudian ekstrak atau di clone
+
+Langkah 2: Persiapan Dataset
+Tahap pertama adalah mengekstrak file `Dataset.zip` yang sudah saya kasih ke drive lalu diunggah ke dalam Google Colab agar gambar dapat dibaca oleh sistem.
+!unzip -q Dataset.zip -d dataset_pothole --- ini digunakan untuk mengekstrak dataset dari zip.
+
+Langkah 3: Instalasi Library
+Menginstal pustaka `ultralytics` yang berisi algoritma YOLOv8 untuk kebutuhan *Computer Vision*.
+!pip install ultralytics --- jalankan ini
+
+Langkah 4: Melatih Model AI (Training)
+Pada tahap ini, model dasar YOLOv8 (versi Nano) dilatih menggunakan dataset jalan berlubang selama 20 *epochs* untuk mempelajari pola visual dari jalan berlubang. Hasil dari proses ini adalah file "otak AI" bernama `best.pt`.
+
+Langkah 5: Pengujian Model (Testing)
+Setelah AI selesai dilatih, kita akan mengujinya menggunakan gambar-gambar jalan berlubang yang belum pernah ia lihat sebelumnya (di dalam folder *test*).
+
+Langkah 6: Saya memakai dataset dari kaggle untuk lebih lengkapnya bisa klik link drive ini
 https://drive.google.com/drive/folders/15rKBdk4JLd7YPPmAlG0r37sN83NupUSj?usp=drive_link
 
 ### 3. Cara Kerja
