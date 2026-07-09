@@ -9,6 +9,7 @@ Proyek ini adalah implementasi *Computer Vision* menggunakan model YOLOv8 untuk 
 
 ### 2. Cara Menjalankan (Instalasi)
 Jika ingin menjalankan ulang proyek ini di Google Colab atau komputer lokal, Anda membutuhkan pustaka `ultralytics`.
+
 Langlah 1: Silahkan Download Repo ini kemudian ekstrak atau di clone
 
 Langkah 2: Persiapan Dataset
