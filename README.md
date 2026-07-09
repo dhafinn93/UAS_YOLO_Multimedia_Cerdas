@@ -1,2 +1,27 @@
-# UAS_YOLO_Multimedia_Cerdas
-UAS Multimedia Cerdas - Deteksi Jalan Berlubang
+# Deteksi Jalan Berlubang (Pothole Detection) menggunakan YOLOv8
+
+Proyek ini adalah implementasi *Computer Vision* menggunakan model YOLOv8 untuk mendeteksi jalan berlubang, dibuat untuk memenuhi Ujian Akhir Semester (UAS) mata kuliah Multimedia Cerdas.
+
+### 1. Fungsi/Fitur
+* Mendeteksi keberadaan jalan berlubang (*pothole*) pada citra gambar.
+* Memberikan penanda berupa kotak (*bounding box*) pada lokasi lubang.
+* Menampilkan nilai probabilitas/akurasi keyakinan AI terhadap lubang yang dideteksi.
+
+### 2. Cara Menjalankan (Instalasi)
+Jika ingin menjalankan ulang proyek ini di Google Colab atau komputer lokal, Anda membutuhkan pustaka `ultralytics`.
+1. Unduh file `UAS_Multimedia_Cerdas.ipynb` dan file bobot `best.pt` dari repositori ini.
+2. Buka terminal atau Google Colab, jalankan perintah instalasi berikut:
+   `pip install ultralytics`
+3. Jalankan *notebook* untuk melakukan prediksi pada gambar baru.
+
+### 3. Cara Kerja
+1. **Pengumpulan Data:** Menggunakan dataset gambar jalan berlubang (*pothole*) berformat YOLO.
+2. **Pelatihan Model:** Model dasar YOLOv8 dilatih (*training*) menggunakan dataset tersebut untuk mempelajari pola visual dari jalan berlubang.
+3. **Prediksi:** Skrip akan memuat bobot model hasil latihan (`best.pt`) dan membaca gambar baru. YOLO memproses piksel gambar tersebut dan mengembalikan koordinat lokasi yang dicurigai sebagai lubang beserta label akurasinya.
+
+### 4. Tampilan Hasil
+Berikut adalah bukti visual model AI berhasil mendeteksi jalan berlubang saat diuji coba:
+
+![Hasil Deteksi](tes2.jpg)
+
+<img width="516" height="387" alt="tes2" src="https://github.com/user-attachments/assets/fe964887-af54-4b7c-803c-ba5b857a8102" />
