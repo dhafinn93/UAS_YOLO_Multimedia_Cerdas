@@ -14,10 +14,12 @@ Langlah 1: Silahkan Download Repo ini kemudian ekstrak atau di clone
 
 Langkah 2: Persiapan Dataset
 Tahap pertama adalah mengekstrak file `Dataset.zip` yang sudah saya kasih ke drive lalu diunggah ke dalam Google Colab agar gambar dapat dibaca oleh sistem.
+
 !unzip -q Dataset.zip -d dataset_pothole --- ini digunakan untuk mengekstrak dataset dari zip.
 
 Langkah 3: Instalasi Library
 Menginstal pustaka `ultralytics` yang berisi algoritma YOLOv8 untuk kebutuhan *Computer Vision*.
+
 !pip install ultralytics --- jalankan ini
 
 Langkah 4: Melatih Model AI (Training)
